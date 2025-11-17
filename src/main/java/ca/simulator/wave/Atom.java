@@ -1,4 +1,4 @@
-package main.java;
+package ca.simulator.wave;
 
 public interface Atom {
     void receive(int energy, int direction);

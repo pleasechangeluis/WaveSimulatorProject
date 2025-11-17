@@ -1,4 +1,4 @@
-package main.java;
+package ca.simulator.wave;
 
 import java.lang.reflect.Array;
 
