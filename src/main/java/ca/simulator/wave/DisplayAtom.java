@@ -2,18 +2,19 @@ package ca.simulator.wave;
 
 import java.lang.reflect.Array;
 
-public class DisplayAtom implements Atom {
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.control.Button;
+
+public class DisplayAtom implements Atom , EventHandler<ActionEvent>{
     double Energy;
     int direction;
     Atom[] NearAtoms = new Atom[8];
 
-    public DisplayAtom (Atom[] nearByAtoms){
+    public DisplayAtom (){
         Energy = 0;
         int counter = 0;
-        for(Atom cAtom: nearByAtoms){
-            NearAtoms[counter] = cAtom;
-            counter ++;
-        }
+
     }
     public void receive(int energy, int direction){
         this.Energy = energy;
@@ -32,6 +33,12 @@ public class DisplayAtom implements Atom {
             default:
             break;
         }
+    }
+    @Override
+    public void handle(ActionEvent event) {
+        String command = ((Button) event.getSource()).getText();
+        System.out.println(command);
+        this.disperse();
     } 
     
 }
