@@ -25,3 +25,37 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Python thing 
+# Byte-code files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.whl
+
+# Virtual environment
+# (adjust the name if you use a different one, e.g., 'env')
+venv/
+.venv/
+
+# IDE and editor files
+.idea/ # For PyCharm
+.vscode/ # For VS Code (can be ignored globally or per project)
+*.swp    # For Vim
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.tox/    # For tox test automation
+
+# Documentation files
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/ # For the Ruff linter
+
+# OS-specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
