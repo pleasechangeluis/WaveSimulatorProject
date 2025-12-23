@@ -21,7 +21,7 @@ DEPENDSON:
 IMPL DTL :
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-TYPE     : USER STORY 1.01 : NAME : NotStarted 
+TYPE     : USER STORY 1.01 : Laksh : InProgress 
 NAME     : Impliment Grid System Interativity using canvas
 PRIORITY : 1
 ESTIMATE :                    ACTUAL : 
