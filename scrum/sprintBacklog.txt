@@ -1,0 +1,36 @@
+# Move User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 December 23, 2025
+# Sprint 1 Backlog UserStories go below
+--------------------------------------------------------------------------
+TYPE     : ApplicationStart : luwis : InProgress 
+NAME     : Impliment Grid System Interativity Using Buttons
+PRIORITY : 1
+ESTIMATE :                    ACTUAL : 
+AS A     : Coder
+ISSUE    : Make Interativity using buttons
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : PYPORT : robert : Complete 
+NAME     : Impliment Grid System Interativity in python
+PRIORITY : 
+ESTIMATE :                    ACTUAL : 
+AS A     : Coder 
+ISSUE    : Make basic implimentation using easy pygame.
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.01 : NAME : STATUS 
+NAME     : Impliment Grid System Interativity using canvas
+PRIORITY : 1
+ESTIMATE :                    ACTUAL : 
+AS A     : 
+ISSUE    :
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------

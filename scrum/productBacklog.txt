@@ -1,0 +1,35 @@
+# User Stories/Bugs (add as appropriate), modify at each Sprint Planning Meeting
+# If a USER STORY is large, break it into smaller user stories.
+--------------------------------------------------------------------------
+TYPE     : ApplicationStart : luwis : InProgress 
+NAME     : Impliment Grid System Interativity Using Buttons
+PRIORITY : 1
+ESTIMATE :                    ACTUAL : 
+AS A     : Coder
+ISSUE    : Make Interativity using buttons
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : PYPORT : robert : InProgress 
+NAME     : Impliment Grid System Interativity in python
+PRIORITY : 
+ESTIMATE :                    ACTUAL : 
+AS A     : Coder 
+ISSUE    : Make basic implimentation using easy pygame.
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1.01 : NAME : NotStarted 
+NAME     : Impliment Grid System Interativity using canvas
+PRIORITY : 1
+ESTIMATE :                    ACTUAL : 
+AS A     : 
+ISSUE    :
+DEPENDSON: 
+IMPL DTL :
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+# COMPLETED USER STORIES/BUGS BELOW ###########################################
+--------------------------------------------------------------------------
